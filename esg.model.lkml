@@ -19,10 +19,6 @@ include: "/views/*.view.lkml"                # include all views in the "views" 
 #   }
 # }
 
-explore: sled_hc_collector_capacity {
-  label: "SLED Harvest Statistics"
-}
-
 explore: pi_consortia {
   label: "PI Consortia"
   }
